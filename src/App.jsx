@@ -3,6 +3,9 @@ import { SKILLS, PROJECTS, ALL_FILTERS } from "./data"
 import SkillCard from "./components/Skillcard.jsx"
 import ProjectCard from "./components/Projectcard.jsx"
 import "./App.css"
+import githubIcon from './assets/github.png'
+import emailIcon from './assets/email.png'
+import icon from './assets/icon.png'
 
 function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -20,7 +23,7 @@ function Nav() {
   return (
     <nav className={scrolled ? "nav nav-scrolled" : "nav"}>
       <div className="nav-container">
-        <img src="src/assets/icon.png" width="32px" height="32px" class="logo" />
+        <img src={icon} width="32px" height="32px" class="logo" />
         <div className="nav-links">
           <button onClick={() => scroll("about")}>About Me</button>
           <button onClick={() => scroll("skills")}>Skills</button>
@@ -55,11 +58,11 @@ export default function App() {
 
         <div className="links">
           <a href="https://github.com/Wueffi" target="_blank">
-            <img src="src/assets/github.png" alt="GitHub" width="16" height="16" style={{ paddingRight: "5px" }} />
+            <img src={githubIcon} alt="GitHub" width="16" height="16" style={{ paddingRight: "5px" }} />
             GitHub
           </a>
           <a href="mailto:wafflr450@gmail.com">
-            <img src="src/assets/email.png" alt="Email" width="16" height="16" style={{ paddingRight: "5px" }} />
+            <img src={emailIcon} alt="Email" width="16" height="16" style={{ paddingRight: "5px" }} />
             Email
           </a>
         </div>

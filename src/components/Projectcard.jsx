@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Tag from "./Tag"
 import "../styles/Projectcard.css"
+import githubIcon from '../assets/github.png'
 
 export default function ProjectCard({ project }) {
   const [hovered, setHovered] = useState(false)
@@ -24,7 +25,7 @@ export default function ProjectCard({ project }) {
 
       {project.github && (
         <a href={project.github} target="_blank" rel="noreferrer" className="project-github">
-          <img src="src/assets/github.png" alt="GitHub" width="16" height="16" style={{ paddingRight: "4px" }} />
+          <img src={githubIcon} alt="GitHub" width="16" height="16" style={{ paddingRight: "4px" }} />
           View on GitHub
         </a>
       )}
