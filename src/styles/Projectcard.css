@@ -1,0 +1,66 @@
+.project-card {
+  background: #0a0a0a;
+  border: 1px solid #141414;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card.hovered {
+  transform: translateY(-5px);
+  border-color: #272727;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin: 0;
+}
+
+
+.project-header span {
+  font-size: 11px;
+  color: #afafaf;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.project-description {
+  font-size: 13px;
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.project-github:hover {
+  color: #f0f0f0;
+}
