@@ -16,7 +16,7 @@ export default function SkillCard({ skill }) {
       <div className="skill-header">
         <span className="skill-icon">{skill.icon}</span>
         <span className="skill-title">{skill.title}</span>
-        <span className="skill-close">✕</span>
+        <span className="skill-close">➕</span>
       </div>
       <div className="skill-description-wrapper">
         <p className="skill-description">{skill.description}</p>
