@@ -81,7 +81,7 @@ export const PROJECTS = [
     title: "TrialORE",
     description: "Worked on: ORE's trial management plugin for Paper/Bukkit Servers.",
     tags: ["Kotlin"],
-    github: "https://github.com/OpenRedstoneEngineers/ChattORE",
+    github: "https://github.com/OpenRedstoneEngineers/TrialORE",
     year: "2025",
   },
   {
