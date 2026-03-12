@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "Patrick",
     description: "Worked on: ORE's Discord bot.",
     tags: ["Python"],
-    github: "https://github.com/Wueffi/MattBotWings",
+    github: "https://github.com/OpenRedstoneEngineers/Patrick",
     year: "2025",
   },
   {
